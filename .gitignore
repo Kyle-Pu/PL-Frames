@@ -1,4 +1,5 @@
 Frame_Grabber/**
+.ipynb*
 
 # General
 .DS_Store
