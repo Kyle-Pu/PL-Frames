@@ -19,7 +19,7 @@ for angle in angles:
 for vidFilePath in os.listdir("./Videos"):
 	videoCapture = cv2.VideoCapture(f"./Videos/{vidFilePath}") # Start video capture
 
-    # Keep extracting frames until end of video
+    	# Keep extracting frames until end of video
 	frameNum = 1 # For labeling frames
 	while True:
 		hasFramesLeft, image = videoCapture.read()   # Grab next video frame
