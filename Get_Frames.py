@@ -3,7 +3,7 @@ import os
 
 imageDirectory = "Frames" # Directory to store image output
 
-# Create out directory if nonexistent
+# Create our directory if nonexistent
 isDir = os.path.isdir(imageDirectory)
 if not isDir:
 	os.mkdir(imageDirectory)
